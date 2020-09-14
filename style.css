@@ -32,7 +32,7 @@ nav ul{
   border-radius: 11px;
 }
 .nav-links a:hover {
-  background-color: #a92e23;
+  background-color: #747d8c;
 }
 
 .search-box input{
@@ -106,13 +106,10 @@ nav ul{
   line-height: 0.75em;
   vertical-align: -15%;
 }
-.box-3-color{
-  background-color:#a4b0be;
-}
+
 .box-4-color{
   background-color:rgb(171 180 190 / 98%);
 }
-
 
 .title1{
   
@@ -170,25 +167,24 @@ nav ul{
   display: flex;
 }
   
-
 .container-2{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   grid-template-areas: 
-  "rw-bx-1 rw-bx-1    rw-bx-1    rw-bx-1 rw-bx-1"
-  "artc-1  artc-1     artc-1     artc-1  artc-1 "
-  "cl-bx-1 cl-bx-1    cl-bx-1    cl-bx-1 cl-bx-1"
-  "  .     artc-2     artc-2     artc-2     .   "
-  "  .     artc-3     cl-bx-2    cl-bx-2    .   "
-  "  .     mr-artc-1  mr-artc-1  mr-artc-1  .   "
-  "cl-bx-3 cl-bx-3    cl-bx-3    cl-bx-3  cl-bx-3"
-  "  .     artc-4     artc-4     artc-4     .   "
-  "  .     artc-5        .       artc-6     .   "
-  "  .     mr-artc-2  mr-artc-2  mr-artc-2  .   "
-  "rw-bx-2 rw-bx-2    rw-bx-2    rw-bx-2 rw-bx-2"
-  "  .     artc-7        .       artc-8     .   "
-  "  .     mr-artc-3  mr-artc-3  mr-artc-3  .   ";
+  "rw-bx-1   rw-bx-1    rw-bx-1    rw-bx-1   rw-bx-1"
+  "artc-1    artc-1     artc-1     artc-1    artc-1 "
+  "cl-bx-1   cl-bx-1    cl-bx-1    cl-bx-1   cl-bx-1"
+  "artc-2    artc-2     artc-2     artc-2    artc-2 "
+  "cl-bx-2   cl-bx-2    cl-bx-2    cl-bx-2   cl-bx-2"
+  "mr-artc-1 mr-artc-1  mr-artc-1  mr-artc-1 mr-artc-1"
+  "cl-bx-3   cl-bx-3    cl-bx-3    cl-bx-3   cl-bx-3"
+  "artc-4    artc-4     artc-4     artc-4    artc-4"
+  "artc-5    artc-5     artc-5     artc-5    artc-5"
+  "mr-artc-2 mr-artc-2  mr-artc-2  mr-artc-2 mr-artc-2"
+  "rw-bx-2   rw-bx-2    rw-bx-2    rw-bx-2   rw-bx-2"
+  "artc-7    artc-7     artc-7     artc-7    artc-7"
+  "mr-artc-3 mr-artc-3  mr-artc-3  mr-artc-3 mr-artc-3";
 }
 
 .grid-1{
@@ -198,7 +194,6 @@ nav ul{
 }
 .grid-2{
   grid-area: artc-1;
-  background-color: #a4b0be;
   height: 500px;
 }
 .articles{
@@ -211,60 +206,89 @@ nav ul{
     row-gap: 10px;
 }
 .grid-3{
-  grid-area: cl-bx-1; 
-  height: 500px;
-  background-color: #a4b0be;
+  grid-area: cl-bx-1;
+  height: 700px;
 }
 .wrp1{
-  width: 240px;
-  height: 290px;
-  background-image: url(images/pic1.png);
-  background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden;
-  opacity: 0.2;
+  background-image:
+  linear-gradient(to bottom right, rgba(34, 47, 62,1.0), rgba(87, 101, 116,0.9)),
+  url('images/Capture1.PNG');
 }
-
-.color-overlay{
-  background-color: rgb(23 20 20 / 87%);
-  width: 240px;
-  height: 290px;
+.bck-img-color-prop{
+  width: 835px;
+  height: 80%;
+  border-radius: 15px;
+  right: 2%;
+  margin-top: 16px;
+}
+.bck-prop{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  background-size: cover;
   position: absolute;
-  top: 0px;
-  opacity: 0.9;
 }
 
 .grid-4{
   grid-area: artc-2;
-  
+  height: 500px;
 }
+
 .grid-5{
-  grid-area: artc-3;
-  
+  grid-area: cl-bx-2;
+  height: 700px;
 }
-.col-box2{
-  grid-area: cl-bx-1;
-  
-} 
+.wrp2{
+  background-image:
+  linear-gradient(to bottom right, rgba(34, 47, 62,1.0), rgba(87, 101, 116,0.9)),
+  url('images/Capture2.PNG');
+}
+.cont{
+  justify-content: flex-start;
+  display: inline-grid;
+}
+.txt-cont2{
+  width: 30%;
+  display: inline-grid;
+  margin: 5%;
+}
 
 .grid-6{
   grid-area: mr-artc-1;
-  
+  height: 300px;
+}
+.lts-art{
+  text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    background-color: #576574;
+    width: 27%;
+    position: relative;
+    left: 36%;
+    top: 80%
 }
 .grid-7{
   grid-area: cl-bx-3;
-  
+  height: 700px;
 }
+.wrp3{
+  width: 100%;
+  height: 85%;
+  background: radial-gradient(circle, rgba(200,214,229,0.9) 0%, rgba(0,0,0,1) 100%), url(images/Capture3.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  background-size: contain;
+}
+
 .grid-8{
   grid-area: artc-4;
   
 }
 .grid-9{
   grid-area: artc-5;
-  
-}
-.artc6{
-  grid-area: artc-6;
   
 }
 .grid-10{
@@ -279,10 +303,7 @@ nav ul{
   grid-area: artc-7;
   
 }
-.artc8{
-  grid-area: artc-8;
-  
-}
+
 .grid-13{
   grid-area: mr-artc-3;
   
@@ -293,6 +314,9 @@ footer{
 }
 .sm-img{
   background-color: gray;
+}
+.container-color{
+ background-color: #a4b0be;
 }
 .bck-size{
   background-size: cover;
