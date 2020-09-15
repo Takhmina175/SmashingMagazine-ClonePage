@@ -51,6 +51,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background: #8C95A1;
+}
+
 nav {
   background-color: #57606f;
   padding: 30px;
@@ -381,22 +385,134 @@ nav ul {
   grid-area: artc-5;
   display: flex;
   min-height:500px; 
+  flex-wrap: wrap;
 }
 
 .grid-9 > section{
   display: flex;
   flex-wrap: wrap;
-  background: yellow;
+  background: #57616F;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  align-content:space-around;
+  padding: 10px;
 
 }
 
 .grid-9 > section > div{
-  width: 50%;
+  width: 45%;
   height: 100%;
-  background: red;
+  background: #8C95A1;
+  display: flex;
+  margin-top:10px;
+  min-height: 200px;
+  padding:20px;
+}
+
+.grid-9 > .more-links{
+  height: 80px;
+  background: #57606f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-9 > .more-links > div{
+  width: 300px;
+  background: #a4b0be;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#a4b0be;
+}
+
+.grid-9 > section > div.article-recommedation > .article-container{
+  margin-left: 10px;
+}
+
+.grid-9 > section > div.article-recommedation > .article-container  > .author-name{
+  background: white;
+  margin-top: 10px;
+  color: white;
+}
+
+.grid-9 > section > div.article-recommedation > .article-container > article{
+background: white;
+margin-top: 10px;
+color: white;
+
+}
+
+.grid-9 > section > div.article-recommedation > .article-container >.article-title{
+  background: white;
+  margin-top: 10px;
+  color: white;
 }
 .grid-10 {
   grid-area: mr-artc-2;
+  height: 400px;
+  background: #57606f;
+  display: flex;
+  padding: 10px;
+}
+
+.grid-10 > .left-content{
+  width: 70%;
+  height: 100%;
+  background: #a4b0be;
+  margin-right: 10px;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top: 5%;
+}
+
+.grid-10 > .left-content > h2{
+  
+  width: 30%;
+}
+
+.grid-10 > .left-content > h1{
+ 
+  width: 40%;
+}
+
+.grid-10 > .left-content > p{
+ 
+  width: 80%;
+}
+
+.dark-box{
+  background: #57606f;
+  color: #57606f;
+}
+
+.light-box{
+  background: #A3B1BE;
+  color:#A3B1BE;
+}
+
+.tbc-link{
+  font-size: 2rem;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.grid-10 > .right-content{
+  width: 30%;
+  height: 100%;
+  background: #a4b0be;
+  margin-right: 10px;
+}
+
+.grid-10 > .right-content > .book-image{
+height: 100%;
+width: 60%;
+margin: 0 auto;
+margin-top: -40px;
+border: 2px solid #A3B1BE;
 }
 .grid-11 {
   grid-area: rw-bx-2;
@@ -423,4 +539,12 @@ footer {
 }
 .bck-org {
   background-origin: border-box;
+}
+
+.mt-2{
+  margin-top: 20px;
+}
+
+.mb-2{
+  margin-bottom: 20px;
 }
