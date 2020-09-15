@@ -71,7 +71,6 @@ nav a {
   color: white;
   font-size: 20px;
   font-weight: 600;
-  text-align: center;
 }
 nav ul {
   list-style-type: none;
@@ -174,7 +173,6 @@ nav ul {
 }
 .t-1-2 {
   padding: 20px;
-  text-align: center;
 }
 .p-absolute {
   position: absolute;
@@ -241,6 +239,17 @@ nav ul {
   background-color: #2f3542;
   height: 400px;
 }
+.grid-1-content{
+  display: inline-grid;
+  gap: 20px;
+}
+.grid-1-content ul{
+  margin-left: 40%;
+}
+.grid-1-content p{
+  width: 500px;
+}
+
 .grid-2 {
   grid-area: artc-1;
   height: 500px;
@@ -287,58 +296,55 @@ nav ul {
   height: 500px;
 }
 
-.grid-5 {
+.grid-5{
   grid-area: cl-bx-2;
   height: 700px;
 }
-.wrp2 {
-  background-image: linear-gradient(
-      to bottom right,
-      rgba(34, 47, 62, 1),
-      rgba(87, 101, 116, 0.9)
-    ),
-    url("images/Capture2.PNG");
+.wrp2{
+  background-image:
+  linear-gradient(to bottom right, rgba(34, 47, 62,1.0), rgba(87, 101, 116,0.9)),
+  url('images/Capture2.PNG');
 }
-.cont {
+.cont{
   justify-content: flex-start;
   display: inline-grid;
 }
-.txt-cont2 {
-  width: 30%;
+.txt-cont2{
+    width: 30%;
+    display: inline-grid;
+    margin: 1% 2% auto 6%;
+    row-gap: 50%;
+}
+.txt-cont2-article{
   display: inline-grid;
-  margin: 5%;
+  row-gap: 14px;
 }
 
-.grid-6 {
+.grid-6{
   grid-area: mr-artc-1;
   height: 300px;
 }
-.lts-art {
+.lts-art{
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3px;
-  background-color: #576574;
-  width: 27%;
   position: relative;
-  left: 36%;
   top: 80%;
 }
-.grid-7 {
+.lts-art h3{
+  letter-spacing: 1px;
+  border-bottom-style: solid;
+}
+.grid-7{
   grid-area: cl-bx-3;
   height: 700px;
-  position: relative;
+  color: white;
 }
-.wrp3 {
+.wrp3{
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-      circle,
-      rgba(200, 214, 229, 0.9) 0%,
-      rgba(0, 0, 0, 1) 100%
-    ),
-    url(images/Capture3.PNG);
+  background: radial-gradient(circle, rgba(83, 92, 104,0.9) 30%, rgba(0,0,0,1) 60%), url(images/Capture3.PNG);
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.8;
@@ -347,12 +353,11 @@ nav ul {
 }
 .textAndImage2{
   position: relative;
-  top: 8%;
-  left: 1%;
+  top: 48%;
   display: inline-grid;
   row-gap: 27px;
-  margin-top: 24px;
 }
+
 .arrow-icon-text{
   color: #2f3542;
   display: inline-flex;
@@ -364,12 +369,14 @@ nav ul {
   padding: 13px;
   border-radius: 3px;
 }
-.grid-7 p{
-    font-size: 20px;
-    width: 52%;
-    margin-left: 23%;
+.grid-7-p{
+    font-size: 15px;
+    width: 500px;
+    line-height: 21px;
 }
-
+.txt-center{
+  text-align: center;
+}
 .grid-8 {
   grid-area: artc-4;
   height: 400px;
