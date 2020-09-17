@@ -261,6 +261,7 @@ nav ul {
 }
 
 .grid-1 {
+  position: relative;
   grid-area: rw-bx-1;
   background-color: #2f3542;
   height: 400px;
@@ -413,9 +414,9 @@ nav ul {
   align-self: end;
 }
 .ads-img{
-  position: relative;
+  position: absolute;
   left: 60%;
-  bottom: 100%;
+  bottom: 20%;
 }
 .arrow-icon-text{
     color: #2f3542;
