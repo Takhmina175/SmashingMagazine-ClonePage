@@ -61,7 +61,6 @@ nav {
 }
 .navLinks {
   height: 50px;
-  align-items: center;
   margin: 0 auto;
   justify-content: space-between;
   font-family: Mija;
@@ -71,6 +70,7 @@ nav a {
   color: white;
   font-size: 20px;
   font-weight: 600;
+  padding: 10px;
 }
 nav ul {
   list-style-type: none;
@@ -100,7 +100,6 @@ nav ul {
   font-size: 20px;
 }
 .container-1 {
-  justify-content: center;
   box-sizing: border-box;
 }
 .box {
@@ -111,6 +110,7 @@ nav ul {
   margin: 25% auto auto 10%;
   display: inline-grid;
   row-gap: 50%;
+  height: 69%;
 }
 .box-width {
   width: 50%;
@@ -121,6 +121,9 @@ nav ul {
 .box-2-color {
   background-color: #747d8cd1;
 }
+.cl-white{
+  color: white;
+  }
 .blogs {
   left: 6%;
   top: 50%;
@@ -129,16 +132,26 @@ nav ul {
 }
 .event-numb {
   gap: 10px;
+  padding: 3px;
+  color: white;
 }
 .athr-blog-name {
-  gap: 10px;
+    gap: 10px;
+    border: 2px solid #2c3e50;
+    padding: 5px;
+    color: white;
 }
 .athr-name {
   gap: 10px;
 }
 .athr-name h4 {
-  font-size: 20px;
-  margin-top: 13px;
+    font-size: 20px;
+    margin-top: 13px;
+    background-color: white;
+    width: 50%;
+    margin-bottom: 2%;
+    border: 2px solid #2c3e50;
+    color: white;
 }
 .athr-blog-name h2 {
   font-size: 25px;
@@ -155,6 +168,9 @@ nav ul {
   font-size: 2.333333em;
   line-height: 0.75em;
   vertical-align: -15%;
+  padding-right: 10px;
+  background-color: #2f3640;
+  color: white;
 }
 
 .box-4-color {
@@ -193,11 +209,9 @@ nav ul {
 .txt-box {
   width: 137px;
   height: 35px;
-  background-color: transparent;
 }
 .side-icons {
   top: 21%;
-  display: flex;
   gap: 20px;
   right: 10%;
 }
@@ -213,6 +227,18 @@ nav ul {
 .d-flex {
   display: flex;
 }
+.aln-self-center{
+  align-self: center; 
+  }
+  .js-self-center{
+  justify-self: center;
+  }
+  .js-content{
+  justify-content: center;
+  }
+  .al-items-center{
+  align-items: center;
+  }
 
 .container-2 {
   display: grid;
@@ -240,14 +266,19 @@ nav ul {
   height: 400px;
 }
 .grid-1-content{
-  display: inline-grid;
-  gap: 20px;
+  display: inline-grid; 
+  gap: 2px; 
+  width: 700px; 
+  height: 80%;
+  line-height: 1.5;
+  margin-left: 10%;
+  margin-top: 2%;
 }
 .grid-1-content ul{
-  margin-left: 40%;
+  text-align: start;
 }
-.grid-1-content p{
-  width: 500px;
+.grid-1-content div{
+  width: 500px; 
 }
 
 .grid-2 {
@@ -255,13 +286,12 @@ nav ul {
   height: 500px;
 }
 .articles {
-  justify-content: center;
   gap: 20px;
   margin: 3% 5% 0% 5%;
+  height: 80%;
 }
 .artc1 {
   display: inline-grid;
-  row-gap: 10px;
 }
 .grid-3 {
   grid-area: cl-bx-1;
@@ -306,19 +336,40 @@ nav ul {
   url('images/Capture2.PNG');
 }
 .cont{
-  justify-content: flex-start;
-  display: inline-grid;
+    justify-content: flex-start;
+    display: inline-grid;
+    width: 400px;
+    height: 85%;
+    margin-left: 5%;
 }
 .txt-cont2{
-    width: 30%;
-    display: inline-grid;
-    margin: 1% 2% auto 6%;
-    row-gap: 50%;
+  display: inline-grid;
+}
+.txt-cont2-article-p{
+  line-height: 1.5;
+  margin-top: 2%;
 }
 .txt-cont2-article{
-  display: inline-grid;
-  row-gap: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
+.txt-cont2-article-h6{
+  padding-bottom: 5px;
+  width: 82px;
+  
+}
+.txt-cont2-article-h1{
+  margin: 5px auto;
+}
+.txt-cont2-article-h5{
+  width: 23%;
+}
+
+.f-size{
+  font-size: 16px;
+}
+
 
 .grid-6{
   grid-area: mr-artc-1;
@@ -326,15 +377,13 @@ nav ul {
 }
 .lts-art{
   text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   top: 80%;
 }
 .lts-art h3{
   letter-spacing: 1px;
   border-bottom-style: solid;
+  padding: 3px;
 }
 .grid-7{
   grid-area: cl-bx-3;
@@ -344,7 +393,7 @@ nav ul {
 .wrp3{
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, rgba(83, 92, 104,0.9) 30%, rgba(0,0,0,1) 60%), url(images/Capture3.PNG);
+  background: radial-gradient(circle, rgba(83, 92, 104,0.9) 30%, rgba(0,0,0,1) 83%), url(images/Capture3.PNG);
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.8;
@@ -357,13 +406,23 @@ nav ul {
   display: inline-grid;
   row-gap: 27px;
 }
-
-.arrow-icon-text{
-  color: #2f3542;
-  display: inline-flex;
-  gap: 18px;
-  justify-content: center;
+.textAndImage1{
+  width: 45%;
 }
+.arrw-ic{
+  align-self: end;
+}
+.ads-img{
+  position: relative;
+  left: 60%;
+  bottom: 100%;
+}
+.arrow-icon-text{
+    color: #2f3542;
+    display: inline-flex;
+    align-self: start;  
+}
+
 .arrow-icon-text h3{
   background-color: white;
   padding: 13px;
@@ -381,12 +440,8 @@ nav ul {
   grid-area: artc-4;
   height: 400px;
   background: #a4b0be;
-  display: flex;
-  justify-content: center;
 }
 .grid-8 > .grid-8-container{
-  display: flex;
-  align-items: center;
   height: 100%;
   gap: 15px;
   width: 97%;
@@ -446,9 +501,6 @@ nav ul {
   height: 80px;
   background: #57606f;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .grid-9 > .more-links > div{
