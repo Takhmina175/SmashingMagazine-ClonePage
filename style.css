@@ -161,30 +161,26 @@ nav ul {
 }
 
 .event-numb {
-  gap: 10px;
   padding: 3px;
-  color: white;
 }
 
 .athr-blog-name {
-  gap: 10px;
   border: 2px solid #2c3e50;
   padding: 5px;
-  color: white;
 }
 
-.athr-name {
+
+
+.gap-10 {
   gap: 10px;
 }
 
 .athr-name h4 {
   font-size: 20px;
   margin-top: 13px;
-  background-color: white;
   width: 50%;
   margin-bottom: 2%;
   border: 2px solid #2c3e50;
-  color: white;
 }
 
 .athr-blog-name h2 {
@@ -207,7 +203,6 @@ nav ul {
   vertical-align: -15%;
   padding-right: 10px;
   background-color: #2f3640;
-  color: white;
 }
 
 .box-4-color {
@@ -222,7 +217,7 @@ nav ul {
 
 .title2 {
   width: 200px;
-  top: 26%;
+  top: 24%;
   left: 44%;
 }
 
@@ -501,7 +496,6 @@ nav ul {
 }
 
 .arrow-icon-text h3 {
-  background-color: white;
   padding: 13px;
   border-radius: 3px;
 }
@@ -598,21 +592,15 @@ nav ul {
 }
 
 .grid-9 > section > div.article-recommedation > .article-container > .author-name {
-  background: white;
   margin-top: 10px;
-  color: white;
 }
 
-.grid-9 > section > div.article-recommedation > .article-container > article {
-  background: white;
-  margin-top: 10px;
-  color: white;
-}
 
-.grid-9 > section > div.article-recommedation > .article-container > .article-title {
-  background: white;
+
+.mt-10{
+
   margin-top: 10px;
-  color: white;
+
 }
 
 .grid-10 {
