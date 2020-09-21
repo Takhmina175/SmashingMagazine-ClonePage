@@ -165,38 +165,26 @@ nav ul {
 }
 
 .athr-blog-name {
-<<<<<<< HEAD
-  gap: 10px;
   border: 2px solid #2c3e50;
   padding: 5px;
-  color: white;
 }
 
 .athr-name {
-=======
   border: 2px solid #2c3e50;
   padding: 5px;
 }
 
 .gap-10 {
->>>>>>> fd06755a413d195826d1e466da81a921bf7b62d5
   gap: 10px;
 }
 
 .athr-name h4 {
   font-size: 20px;
   margin-top: 13px;
-<<<<<<< HEAD
   background-color: white;
   width: 50%;
   margin-bottom: 2%;
   border: 2px solid #2c3e50;
-  color: white;
-=======
-  width: 50%;
-  margin-bottom: 2%;
-  border: 2px solid #2c3e50;
->>>>>>> fd06755a413d195826d1e466da81a921bf7b62d5
 }
 
 .athr-blog-name h2 {
@@ -512,10 +500,6 @@ nav ul {
 }
 
 .arrow-icon-text h3 {
-<<<<<<< HEAD
-  background-color: white;
-=======
->>>>>>> fd06755a413d195826d1e466da81a921bf7b62d5
   padding: 13px;
   border-radius: 3px;
 }
@@ -611,27 +595,7 @@ nav ul {
   margin-left: 10px;
 }
 
-.grid-9 > section > div.article-recommedation > .article-container > .author-name {
-<<<<<<< HEAD
-  background: white;
-  margin-top: 10px;
-  color: white;
-}
-
-.grid-9 > section > div.article-recommedation > .article-container > article {
-  background: white;
-  margin-top: 10px;
-  color: white;
-}
-
-.grid-9 > section > div.article-recommedation > .article-container > .article-title {
-  background: white;
-=======
-  margin-top: 10px;
-}
-
 .mt-10 {
->>>>>>> fd06755a413d195826d1e466da81a921bf7b62d5
   margin-top: 10px;
 }
 
@@ -704,8 +668,6 @@ nav ul {
   padding-bottom: 50px;
 }
 
-<<<<<<< HEAD
-=======
 .grid-11 > .guide-box {
   width: 25%;
   min-height: 400px;
@@ -719,7 +681,6 @@ nav ul {
   border-radius: 10px;
 }
 
->>>>>>> fd06755a413d195826d1e466da81a921bf7b62d5
 .grid-12 {
   grid-area: artc-7;
   display: flex;
@@ -778,8 +739,6 @@ footer {
   min-height: 400px;
 }
 
-<<<<<<< HEAD
-=======
 footer > .ft-box > div > ul {
   display: flex;
   flex-wrap: wrap;
@@ -842,7 +801,6 @@ footer .lower-footer .box-l-footer .content-l-footer ul li {
   border: 2px solid #2f3640;
 }
 
->>>>>>> fd06755a413d195826d1e466da81a921bf7b62d5
 .sm-img {
   background-color: gray;
 }
@@ -866,8 +824,6 @@ footer .lower-footer .box-l-footer .content-l-footer ul li {
 .mb-2 {
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
-=======
 
 .p-5 {
   padding: 50px;
@@ -880,4 +836,3 @@ footer .lower-footer .box-l-footer .content-l-footer ul li {
 .mb-5 {
   margin-bottom: 50px;
 }
->>>>>>> fd06755a413d195826d1e466da81a921bf7b62d5
