@@ -68,6 +68,9 @@
 
 body {
   background: #8c95a1;
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
 }
 
 nav {
@@ -84,7 +87,6 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
   font-size: 20px;
   font-weight: 600;
   padding: 10px;
@@ -150,7 +152,10 @@ nav ul {
 }
 
 .cl-white {
-  color: white;
+  color: #6D6D6D;
+}
+.cl-white-1{
+  color: white !important;
 }
 
 .blogs {
@@ -181,7 +186,6 @@ nav ul {
 .athr-name h4 {
   font-size: 20px;
   margin-top: 13px;
-  background-color: white;
   width: 50%;
   margin-bottom: 2%;
   border: 2px solid #2c3e50;
@@ -234,7 +238,7 @@ nav ul {
 }
 
 .bck-white {
-  background-color: white;
+  background-color: #6D6D6D;
 }
 
 .br-radius {
@@ -517,7 +521,6 @@ nav ul {
 .grid-8 {
   grid-area: artc-4;
   height: 400px;
-  background: #a4b0be;
 }
 
 .grid-8 > .grid-8-container {
@@ -535,16 +538,11 @@ nav ul {
 .grid-8 article {
   flex: 4;
   height: 60%;
-  background: #576574;
   padding: 10px;
 }
 
 .grid-8 article p {
   margin-top: 30px;
-}
-
-.grid-8 article h1 {
-  background: #747d8c;
 }
 
 .grid-9 {
@@ -557,7 +555,6 @@ nav ul {
 .grid-9 > section {
   display: flex;
   flex-wrap: wrap;
-  background: #57616f;
   justify-content: space-around;
   height: 100%;
   width: 100%;
@@ -568,7 +565,6 @@ nav ul {
 .grid-9 > section > div {
   width: 45%;
   height: 100%;
-  background: #8c95a1;
   display: flex;
   margin-top: 10px;
   min-height: 200px;
@@ -577,13 +573,11 @@ nav ul {
 
 .grid-9 > .more-links {
   height: 80px;
-  background: #57606f;
   width: 100%;
 }
 
 .grid-9 > .more-links > div {
   width: 300px;
-  background: #a4b0be;
   height: 40%;
   display: flex;
   justify-content: center;
@@ -602,7 +596,6 @@ nav ul {
 .grid-10 {
   grid-area: mr-artc-2;
   height: 400px;
-  background: #57606f;
   display: flex;
   padding: 10px;
 }
@@ -610,7 +603,6 @@ nav ul {
 .grid-10 > .left-content {
   width: 70%;
   height: 100%;
-  background: #a4b0be;
   margin-right: 10px;
   padding-left: 5%;
   padding-right: 5%;
@@ -630,13 +622,13 @@ nav ul {
 }
 
 .dark-box {
-  background: #57606f;
-  color: #57606f;
+  background: #333333;
+  color: #333333;
 }
 
 .light-box {
-  background: #a3b1be;
-  color: #a3b1be;
+  background: #A1A1A1;
+  color: #A1A1A1;
 }
 
 .tbc-link {
@@ -648,7 +640,6 @@ nav ul {
 .grid-10 > .right-content {
   width: 30%;
   height: 100%;
-  background: #a4b0be;
   margin-right: 10px;
 }
 
@@ -752,8 +743,8 @@ footer > .ft-box > h4 {
 
 footer > .ft-box > div > ul > li {
   padding: 25px;
-  background: #a3b1be;
-  color: #a3b1be;
+  background: #A1A1A1;
+  color: #A1A1A1;
   margin: 10px;
 }
 
@@ -815,6 +806,7 @@ footer .lower-footer .box-l-footer .content-l-footer ul li {
 
 .bck-org {
   background-origin: border-box;
+  position: relative;
 }
 
 .mt-2 {
@@ -835,4 +827,9 @@ footer .lower-footer .box-l-footer .content-l-footer ul li {
 
 .mb-5 {
   margin-bottom: 50px;
+}
+
+.complogo{
+  width: 200px;
+  height: 80px;
 }
