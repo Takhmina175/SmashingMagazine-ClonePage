@@ -66,13 +66,14 @@
   box-sizing: border-box;
 }
 
-
 .bck-color1{
-  background-color:#6D6D6D;
+  background-color:#6d6d6d;
 }
+
 .bck-color2{
-  background-color: #333333;
+  background-color: #333;
 }
+
 .bck-color3{
   background-color: #A1A1A1;
 }
@@ -153,7 +154,7 @@ nav ul {
 }
 
 .box-1-color {
-  background-color: #333333;
+  background-color: #333;
 }
 
 .box-2-color {
@@ -161,7 +162,7 @@ nav ul {
 }
 
 .cl-white {
-  color: #6D6D6D;
+  color: #6d6d6d;
 }
 
 .blogs {
@@ -367,12 +368,7 @@ nav ul {
 
 .wrp1 {
   background-image:
-    linear-gradient(
-      to bottom right,
-      rgba(132, 129, 122,1.0),
-      rgba(170, 166, 157,0.9)
-    ),
-    url("images/coffeeImg.png");
+    linear-gradient(to bottom right,rgba(132, 129, 122,1.0),rgba(170, 166, 157,0.9)),url("images/coffeeImg.png");
 }
 
 .bck-img-color-prop {
@@ -403,8 +399,7 @@ nav ul {
 
 .wrp2 {
   background-image:
-    linear-gradient(to bottom right, rgba(132, 129, 122,0.9), rgba(170, 166, 157,0.9)),
-    url('images/camera.png');
+    linear-gradient(to bottom right, rgba(132, 129, 122,0.9), rgba(170, 166, 157,0.9)), url('images/camera.png');
 }
 
 .cont {
@@ -574,7 +569,7 @@ nav ul {
 .grid-9 > section > div {
   width: 45%;
   height: 100%;
-  background: #A1A1A1;
+  background: #a1a1a1;
   display: flex;
   margin-top: 10px;
   min-height: 200px;
@@ -615,7 +610,7 @@ nav ul {
 .grid-10 > .left-content {
   width: 70%;
   height: 100%;
-  background: #A1A1A1;
+  background: #a1a1a1;
   margin-right: 10px;
   padding-left: 5%;
   padding-right: 5%;
@@ -635,12 +630,12 @@ nav ul {
 }
 
 .dark-box {
-  background: #333333;
+  background: #333;
   color: #57606f;
 }
 
 .light-box {
-  background: #A1A1A1;
+  background: #a1a1a1;
   color: #a3b1be;
 }
 
@@ -653,7 +648,7 @@ nav ul {
 .grid-10 > .right-content {
   width: 30%;
   height: 100%;
-  background: #A1A1A1;
+  background: #a1a1a1;
   margin-right: 10px;
 }
 
@@ -756,7 +751,7 @@ footer > .ft-box > h4 {
 
 footer > .ft-box > div > ul > li {
   padding: 25px;
-  background: #333333;
+  background: #333;
   color: #a3b1be;
   margin: 10px;
 }
