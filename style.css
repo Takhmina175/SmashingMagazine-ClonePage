@@ -615,7 +615,7 @@ nav ul {
 .grid-10 > .left-content {
   width: 70%;
   height: 100%;
-  background: #a4b0be;
+  background: #A1A1A1;
   margin-right: 10px;
   padding-left: 5%;
   padding-right: 5%;
@@ -640,7 +640,7 @@ nav ul {
 }
 
 .light-box {
-  background: #a3b1be;
+  background: #A1A1A1;
   color: #a3b1be;
 }
 
@@ -653,7 +653,7 @@ nav ul {
 .grid-10 > .right-content {
   width: 30%;
   height: 100%;
-  background: #a4b0be;
+  background: #A1A1A1;
   margin-right: 10px;
 }
 
@@ -756,7 +756,7 @@ footer > .ft-box > h4 {
 
 footer > .ft-box > div > ul > li {
   padding: 25px;
-  background: #a3b1be;
+  background: #333333;
   color: #a3b1be;
   margin: 10px;
 }
