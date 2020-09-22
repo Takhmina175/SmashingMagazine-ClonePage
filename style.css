@@ -66,16 +66,16 @@
   box-sizing: border-box;
 }
 
-.bck-color1{
-  background-color:#6d6d6d;
+.bck-color1 {
+  background-color: #6d6d6d;
 }
 
-.bck-color2{
+.bck-color2 {
   background-color: #333;
 }
 
-.bck-color3{
-  background-color: #A1A1A1;
+.bck-color3 {
+  background-color: #a1a1a1;
 }
 
 nav {
@@ -91,7 +91,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #6D6D6D;
+  color: #6d6d6d;
   font-size: 20px;
   font-weight: 600;
   padding: 10px;
@@ -109,9 +109,10 @@ nav ul {
 }
 
 .nav-links a:hover {
-  background-color: #6D6D6D;
+  background-color: #6d6d6d;
 }
-.complogo{
+
+.complogo {
   width: 295px;
   height: 74px;
   background-color: gray;
@@ -220,7 +221,6 @@ nav ul {
   padding-right: 10px;
   background-color: #2f3640;
 }
-
 
 .title1 {
   width: 500px;
@@ -367,8 +367,7 @@ nav ul {
 }
 
 .wrp1 {
-  background-image:
-    linear-gradient(to bottom right,rgba(132, 129, 122,1.0),rgba(170, 166, 157,0.9)),url("images/coffeeImg.png");
+  background-image: linear-gradient(to bottom right, rgba(132, 129, 122, 1), rgba(170, 166, 157, 0.9)), url("images/coffeeImg.png");
 }
 
 .bck-img-color-prop {
@@ -398,8 +397,7 @@ nav ul {
 }
 
 .wrp2 {
-  background-image:
-    linear-gradient(to bottom right, rgba(132, 129, 122,0.9), rgba(170, 166, 157,0.9)), url('images/camera.png');
+  background-image: linear-gradient(to bottom right, rgba(132, 129, 122, 0.9), rgba(170, 166, 157, 0.9)), url('images/camera.png');
 }
 
 .cont {
