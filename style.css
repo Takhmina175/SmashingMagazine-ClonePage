@@ -146,7 +146,7 @@ nav ul {
 .wrap-cnt {
   margin: 25% auto auto 10%;
   display: inline-grid;
-  row-gap: 50%;
+  row-gap: 30%;
   height: 69%;
 }
 
@@ -230,7 +230,7 @@ nav ul {
 
 .title2 {
   width: 200px;
-  top: 24%;
+  top: 24.7%;
   left: 44%;
 }
 
