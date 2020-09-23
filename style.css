@@ -242,6 +242,10 @@ nav ul {
   position: absolute;
 }
 
+.p-relative {
+  position: relative;
+}
+
 .bck-white {
   background-color: white;
 }
