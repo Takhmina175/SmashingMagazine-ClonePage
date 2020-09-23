@@ -225,14 +225,12 @@ nav ul {
   width: 500px;
   top: 17%;
   left: 35%;
-  
 }
 
 .title2 {
   width: 200px;
   top: 24%;
   left: 44%;
- 
 }
 
 .t-1-2 {
@@ -244,7 +242,7 @@ nav ul {
 }
 
 .bck-white {
-  background-color: #6D6D6D;
+  background-color: #6d6d6d;
 }
 
 .br-radius {
@@ -827,9 +825,4 @@ footer .lower-footer .box-l-footer .content-l-footer ul li {
 
 .mb-5 {
   margin-bottom: 50px;
-}
-
-.complogo{
-  width: 200px;
-  height: 80px;
 }
