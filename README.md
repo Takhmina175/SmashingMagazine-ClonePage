@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Takhmina175/SmashingMagazine-ClonePage/smashing-magazine/index.html)
+[Live Demo Link](https://takhmina175.github.io/SmashingMagazine-ClonePage/.)
 
 
 ## Getting Started
